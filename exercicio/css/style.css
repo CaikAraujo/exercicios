@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #517996, rgb(40, 182, 165) );
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    
+}
+
+h1#name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: white;
+    height: 45px;
+    margin: 0px 0px ;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+section#links{
+    background-color: rgb(17, 255, 0);
+}
+
+.ancoras{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 40px;
+}
+
+.ancoras:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+main{
+    background-color: white;
+    width: 600px;
+    margin: 50px auto 30px auto;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #072033;
+}
+
+aside{
+    text-align: center;
+    background-color: beige;
+}
+
+h2#teste{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 8px;  
+    color: brown;
+}
+
+p{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 20px;
+}

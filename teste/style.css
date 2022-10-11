@@ -1,0 +1,33 @@
+
+p{
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+body{
+    background-image: linear-gradient(to right,#332973,#6A68A6  );
+    display:block
+    }
+
+main{
+    background-color: rgb(230, 227, 227);
+    width: 600px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 7px 7px 15px #251e54;
+}
+
+h1{
+    text-align: center;
+    color:#BF4C41;
+    text-shadow: 1px 1px 3px #bf4b41b7 ;
+} 
+
+h2{
+    text-align: center;
+    color:#E8B30C;
+}
+

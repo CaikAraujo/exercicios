@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    display: flex; 
+    flex-direction: row;
+    background-color: #231e1e;
+}
+
+div#left{
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid #707e317a;
+    padding: 30px 70px 70px 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.649);
+    border-radius: 25px;
+    margin-left: 150px;
+    margin-right: 110px;
+    box-shadow: 8px 5px 15px rgba(0, 0, 0, 0.477);
+}
+
+div > h1{
+    color: #acc24a;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+input{
+    margin-top: 20px;
+    height: 35px;
+}
+
+input.caixa{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input.btn{
+    background-color: #acc24a54;
+    width: 70%;
+    height: 40px;
+    align-self: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(242, 242, 242);
+    border: none;
+}
+
+input.btn:hover{
+    background-color: #acc24a;
+}
+
+aside{
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(110, 110, 255, 0.644);
+}
+
+div#right{
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 0px;
+} 
+
+div > img{
+    height: 600px;
+    width: 600px;
+}
+
